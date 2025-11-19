@@ -1,0 +1,27 @@
+{
+  "comlierOption":{
+   "target": "ES2017",
+   "lib": ["dom", "dom.iterable", "esnext"],
+   "allowJs":true,
+   "skipLibChack": true,
+   strict": true,
+   "noEmit":L true,
+   "esModulelnterop": true,
+   "module": "esnext",
+   "moduleResolution": "bunler",
+   "resolveJsonModule": true,
+   "isolatedModules": true,
+   "jsx": "presrve",
+   "incremental": true,
+   "plugins": [
+     {
+       "name": "next"
+     }
+   ],
+   "paths": {
+    "@/*": ["./*"]
+   }
+  },
+   "include": ["next-env.d.ts", "**/*.tsx", ".next/types/**.ts"]
+   "exclude": ["node_modules"]
+}
